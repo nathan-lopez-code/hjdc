@@ -881,7 +881,7 @@ strong {
   BANNER        
 -----------------------------------------*/
 .banner-section {
-  background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
+  background-image: url('../images/about.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -892,7 +892,21 @@ strong {
   padding-bottom: 50px;
 }
 
-.banner-section .breadcrumb {
+.banner-section-contact {
+  background-image: url('../images/contact.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  min-height: 340px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+.banner-section .breadcrumbn, 
+.banner-section-contact  .breadcrumbn{
   margin-bottom: 0;
 }
 
