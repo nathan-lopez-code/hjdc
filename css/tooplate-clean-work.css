@@ -892,6 +892,17 @@ strong {
   padding-bottom: 50px;
 }
 
+.banner-section-no-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  min-height: 340px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
 .banner-section-contact {
   background-image: url('../images/contact.jpg');
   background-repeat: no-repeat;
@@ -1600,7 +1611,7 @@ strong {
     left: 20px;
     opacity: 1;
     pointer-events: auto;
-    max-width: 100px;
+    max-width: max-content;
     margin-top: 10px;
     margin-bottom: 15px;
   }
