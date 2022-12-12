@@ -1078,6 +1078,13 @@ strong {
   overflow: hidden;
 }
 
+
+
+.services-image-wrap .service-video{
+  width: 100%;
+  height: 300px;
+}
+
 .services-image-wrap:hover .services-image-hover {
   opacity: 1;
 }
