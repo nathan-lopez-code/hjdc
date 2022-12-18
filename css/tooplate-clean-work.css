@@ -641,9 +641,9 @@ strong {
 .logo {
   background-color: var(--white-color);
   border-radius: var(--border-radius-large);
-  width: 80px;
-  height: 80px;
-  padding: 15px;
+  width: 90px;
+  height: 90px;
+  padding: 5px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -1412,11 +1412,12 @@ strong {
 
 .site-footer .logo {
   background-color: var(--white-color);
+
   border-radius: var(--border-radius-large);
-  width: 80px;
+  width: 80;
   height: 80px;
   object-fit: cover;
-  padding: 15px;
+  padding: 7px;
 }
 
 .site-footer-title,
