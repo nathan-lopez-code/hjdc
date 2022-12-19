@@ -1,20 +1,10 @@
-/*
-
-Tooplate 2132 Clean Work
-
-https://www.tooplate.com/view/2132-clean-work
-
-*/
-
-
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #7cb8eb;
-  --primary-color-trans:                #7cb7ebc4;
+  --primary-color-trans:                #7cb7ebd7;
   --secondary-color:              #4f83d1;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #4f83d1;
@@ -620,6 +610,9 @@ strong {
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
+
+
+
 .navbar {
   background: transparent;
   position: absolute;
@@ -627,9 +620,25 @@ strong {
   right: 0;
   left: 0;
   z-index: 9;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.fixed-nav{
+  background: var(--primary-color-trans);
+  position: fixed;
+  top: 0px;
+
+}
+
+.fixed-nav .container .navbar-brand .logo{
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-large);
+  width: 70px;
+  height: 70px;
+  padding: 0 2px;
+}
+
 
 .navbar-brand,
 .navbar-brand:hover {
@@ -638,11 +647,11 @@ strong {
   font-weight: var(--font-weight-light);
 }
 
-.logo {
+.navbar .logo {
   background-color: var(--white-color);
   border-radius: var(--border-radius-large);
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   padding: 5px;
 }
 
@@ -1587,8 +1596,8 @@ strong {
 
   .navbar {
     background-color: var(--white-color);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0;
+
   }
 
   .navbar-brand,

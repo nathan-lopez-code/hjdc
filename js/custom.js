@@ -39,3 +39,27 @@
   })(window.jQuery);
 
 
+  (function(){
+
+    var scroll = function(){ 
+      return window.scrollY
+    }
+    
+    let navbar = document.querySelector('.navbar')
+    let top = navbar.getBoundingClientRect().top + scroll()
+    let logo = document.querySelector('#logo')
+
+    var onScroll = function(){
+      let isfixing = navbar.classList.contains('fixed-nav')
+      if(scroll() > top && !isfixing){
+        navbar.classList.add("fixed-nav")
+
+      }else if(scroll() < top && isfixing){
+        navbar.classList.remove("fixed-nav")
+      }
+    }
+
+    window.addEventListener("scroll", onScroll)
+  }());
+
+
