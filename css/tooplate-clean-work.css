@@ -628,6 +628,7 @@ strong {
   background: var(--primary-color-trans);
   position: fixed;
   top: 0px;
+  box-shadow: 0 2px 5px 1px black;
 
 }
 
