@@ -1143,7 +1143,7 @@ strong {
   TESTIMONIAL              
 -----------------------------------------*/
 .testimonial-section {
-  background-image: url('../images/coffe-shop-with-wooden-walls-unfocused.jpg');
+  background-image: url('../images/temoignage.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1196,7 +1196,7 @@ strong {
 #customers-testimonials .item {
   text-align: center;
   margin-bottom:20px;
-  width: 400px;
+  width: 300px;
   height: 400px;
   opacity: 1;
   -webkit-transform: scale3d(0.8, 0.8, 1);
