@@ -1197,6 +1197,7 @@ strong {
   text-align: center;
   margin-bottom:20px;
   width: 400px;
+  height: 400px;
   opacity: 1;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);

@@ -66,7 +66,6 @@
   jQuery(document).ready(function($) {
     "use strict";
     //  TESTIMONIALS CAROUSEL HOOK
-
     $('#customers-testimonials').owlCarousel({
         loop: true,
         center: true,
@@ -75,7 +74,7 @@
         autoplay: true,
         dots:true,
         navigator: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 8500,
         smartSpeed: 450,
         responsive: {
           0: {
