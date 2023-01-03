@@ -1186,7 +1186,7 @@ strong {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background: #3190E7;
+  background: hsl(209, 79%, 55%);
   padding: 9px 35px;
   border-radius: 12px;
   text-align: center;
@@ -1204,7 +1204,7 @@ strong {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#customers-testimonials .owl-item.active.center .item {
+#customers-testimonials .owl-item .active .center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
@@ -1214,8 +1214,8 @@ strong {
   width: 100%;
   margin: 0 auto 17px;
 }
-#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
-#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+#customers-testimonials .owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials .owl-carousel .owl-dots .owl-dot:hover span {
   background: #3190E7;
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
