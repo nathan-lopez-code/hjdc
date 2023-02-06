@@ -816,6 +816,15 @@ strong {
 /*---------------------------------------
   SITE HEADER              
 -----------------------------------------*/
+.toplogo {
+  opacity: .56;
+}
+
+.toplogo img {
+  width: 100%;
+}
+
+
 .site-header {
   background: var(--primary-color);
   position: relative;
